@@ -1,0 +1,80 @@
+﻿@page "/"
+
+@using TrabalhoFinalIHM.Components.Componentes
+@using TrabalhoFinalIHM.Models;
+
+@inject NavigationManager NavManager
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-5">
+
+    <MudGrid Class="mt-5">
+
+        <MudItem xs="12" sm="12" md="12" lg="12" xl="12" xxl="12">
+
+            <MudText
+                Typo="Typo.h4"
+                Align="Align.Center"
+                Style="font-weight: bold; margin-bottom: 100px;">
+                Envelhecimento da População
+            </MudText>
+
+        </MudItem>
+
+        <MudItem xs="12" sm="12" md="6" lg="6" xl="6" xxl="6">
+
+            <MudText Class="mb-5" Style="@($"{Estilo.TamanhoFonte} {Estilo.TipoFonte}")">
+                Lorem ipsum dolor sit amet. 33 sint modi et reiciendis animi ut dolorem consequuntur sed perferendis voluptatem.
+                Ea molestias nobis non libero necessitatibus ut deserunt mollitia est unde quia a natus veritatis! At delectus
+                totam non aperiam dicta in mollitia corporis sed atque quia est deserunt unde! Non tempore galisum et voluptas
+                dignissimos ea reiciendis quisquam sit dignissimos doloribus.
+                <MudHidden Breakpoint="Breakpoint.None" Invert="@(!ExibirTexto)">
+                    <MudLink OnClick="@MostrarTexto" Style="color: dodgerblue;">Ler mais...</MudLink>
+                </MudHidden>
+            </MudText>
+
+            <MudHidden Breakpoint="Breakpoint.None" Invert="@ExibirTexto">
+
+                <MudText Class="mb-5" Style="@($"{Estilo.TamanhoFonte} {Estilo.TipoFonte}")">
+                    Vel voluptatem porro qui laborum dolor et nulla ipsum! Eos fugit minima est neque architecto cum velit molestias
+                    qui eaque quam ut sapiente molestias nam esse quae. Et sapiente neque sed enim repellendus aut vero dignissimos aut
+                    excepturi omnis eum quia totam id necessitatibus fugit.
+                </MudText>
+
+                <MudText Class="mb-5" Style="@($"{Estilo.TamanhoFonte} {Estilo.TipoFonte}")">
+                    A magnam reprehenderit ad dolor perspiciatis non nihil reiciendis. Et eveniet temporibus qui velit doloribus et
+                    doloribus sunt et aspernatur iure et internos possimus ut error quasi qui mollitia unde! Cum quas cupiditate et
+                    reiciendis aliquid est vitae eligendi et incidunt cupiditate et expedita harum aut quaerat porro. Eum magni
+                    consequatur ut tempore porro est assumenda repellendus est vitae culpa nam tempore distinctio est dolorum
+                    perferendis non perspiciatis internos.
+                    <MudLink OnClick="@MostrarTexto" Style="color: dodgerblue;">Ler menos</MudLink>
+                </MudText>
+
+            </MudHidden>
+
+        </MudItem>
+
+        <MudItem xs="12" sm="12" md="6" lg="6" xl="6" xxl="6" Class="d-flex justify-center">
+
+            <MudImage Src="imagens/envelhecimento.jpg" Width="500" Height="500" />
+
+        </MudItem>
+
+        <BotaoProximo IrProximaPagina="@IrParaSobre" />
+
+    </MudGrid>
+
+</MudContainer>
+
+@code {
+    private bool ExibirTexto = true;
+
+    private void MostrarTexto()
+    {
+        ExibirTexto = !ExibirTexto;
+    }
+
+    private void IrParaSobre()
+    {
+        NavManager.NavigateTo("/informacoes");
+    }
+}

@@ -1,0 +1,12 @@
+﻿<section class="position-fixed bottom-0 start-0 m-4">
+   <MudButton 
+        StartIcon="@Icons.Material.Filled.ArrowLeft"
+        Style="background-color: dodgerblue; color: white;"
+        OnClick="@VoltarPagina">
+        Voltar
+    </MudButton>
+</section>
+
+@code {
+    [Parameter] public EventCallback<MouseEventArgs> VoltarPagina { get; set; }
+}

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\TrabalhoFinalIHM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|c:\\dev\\trabalhofinalihm\\trabalhofinalihm\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|solutionrelative:trabalhofinalihm\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|c:\\dev\\trabalhofinalihm\\trabalhofinalihm\\components\\pages\\informacoes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|solutionrelative:trabalhofinalihm\\components\\pages\\informacoes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|c:\\dev\\trabalhofinalihm\\trabalhofinalihm\\components\\componentes\\botaoproximo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|solutionrelative:trabalhofinalihm\\components\\componentes\\botaoproximo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|c:\\dev\\trabalhofinalihm\\trabalhofinalihm\\components\\pages\\sobre.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|solutionrelative:trabalhofinalihm\\components\\pages\\sobre.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|c:\\dev\\trabalhofinalihm\\trabalhofinalihm\\components\\componentes\\botaovoltar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|solutionrelative:trabalhofinalihm\\components\\componentes\\botaovoltar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|c:\\dev\\trabalhofinalihm\\trabalhofinalihm\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDE682A6-250E-4E7F-ABCE-91780A94D27C}|TrabalhoFinalIHM\\TrabalhoFinalIHM.csproj|solutionrelative:trabalhofinalihm\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "TrabalhoFinalIHM\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "TrabalhoFinalIHM\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T14:30:41.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Informacoes.razor",
+              "DocumentMoniker": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Pages\\Informacoes.razor",
+              "RelativeDocumentMoniker": "TrabalhoFinalIHM\\Components\\Pages\\Informacoes.razor",
+              "ToolTip": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Pages\\Informacoes.razor",
+              "RelativeToolTip": "TrabalhoFinalIHM\\Components\\Pages\\Informacoes.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T14:28:23.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BotaoProximo.razor",
+              "DocumentMoniker": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Componentes\\BotaoProximo.razor",
+              "RelativeDocumentMoniker": "TrabalhoFinalIHM\\Components\\Componentes\\BotaoProximo.razor",
+              "ToolTip": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Componentes\\BotaoProximo.razor",
+              "RelativeToolTip": "TrabalhoFinalIHM\\Components\\Componentes\\BotaoProximo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T14:21:15.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BotaoVoltar.razor",
+              "DocumentMoniker": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Componentes\\BotaoVoltar.razor",
+              "RelativeDocumentMoniker": "TrabalhoFinalIHM\\Components\\Componentes\\BotaoVoltar.razor",
+              "ToolTip": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Componentes\\BotaoVoltar.razor",
+              "RelativeToolTip": "TrabalhoFinalIHM\\Components\\Componentes\\BotaoVoltar.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T14:20:57.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sobre.razor",
+              "DocumentMoniker": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Pages\\Sobre.razor",
+              "RelativeDocumentMoniker": "TrabalhoFinalIHM\\Components\\Pages\\Sobre.razor",
+              "ToolTip": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Pages\\Sobre.razor",
+              "RelativeToolTip": "TrabalhoFinalIHM\\Components\\Pages\\Sobre.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T14:05:23.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "TrabalhoFinalIHM\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\dev\\TrabalhoFinalIHM\\TrabalhoFinalIHM\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "TrabalhoFinalIHM\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAD0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T12:22:52.589Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿<section class="position-fixed bottom-0 end-0 m-4">
+    <MudButton 
+        EndIcon="@Icons.Material.Filled.ArrowRight"
+        Style="background-color: dodgerblue; color: white;"
+        OnClick="@IrProximaPagina">
+        Próximo
+    </MudButton>
+</section>
+
+@code {
+    [Parameter] public EventCallback<MouseEventArgs> IrProximaPagina { get; set; }
+}

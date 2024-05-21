@@ -1,0 +1,54 @@
+﻿@page "/informacoes"
+
+@using TrabalhoFinalIHM.Components.Componentes;
+
+@inject NavigationManager NavManager
+
+<MudContainer>
+
+  <div class="container">
+    <header class="row">
+      <h1 class="col text-center mt-5 mb-4">Dados Estatísticos</h1>
+    </header>
+
+    <!-- Seção do Gráfico de Envelhecimento Global -->
+    <section class="mb-5">
+      <h2 class="mb-3">Envelhecimento Global</h2>
+      <p>O gráfico abaixo mostra a projeção do aumento da população idosa ao longo dos anos.</p>
+      <canvas id="agingChart" width="350" height="150"></canvas>
+    </section>
+
+    <!-- Seção do Gráfico de Distribuição por Idade -->
+    <section class="mb-5">
+      <h2 class="mb-3">Distribuição por Idade</h2>
+      <p>O gráfico abaixo mostra a distribuição percentual das diferentes faixas etárias da população idosa.</p>
+      <div style="max-width: 500px; margin: 0 auto;">
+        <canvas id="ageDistributionChart" width="150" height="150"></canvas>
+      </div>
+    </section>
+  </div>
+
+  <!-- Seção de Voltar -->
+  <BotaoVoltar VoltarPagina="@VoltarPagina" />
+
+  <!-- Seção de Próxima Página -->
+  <BotaoProximo IrProximaPagina="@IrParaSobre"/>
+
+  <!-- Rodapé -->
+  <footer class="row">
+    <p class="col text-center text-muted">© 2024 Envelhecimento da População</p>
+  </footer>
+
+</MudContainer>
+
+@code {
+    private void IrParaSobre()
+    {
+        NavManager.NavigateTo("/sobre");
+    }
+
+    private void VoltarPagina()
+    {
+        NavManager.NavigateTo("/");
+    }
+}
